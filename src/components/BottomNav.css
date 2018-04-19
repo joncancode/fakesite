@@ -1,0 +1,24 @@
+.bottomNav {
+  height: 30vh;
+  display: inline-flex;
+  padding-bottom: 50px;
+  margin: 20px;
+}
+
+@media (min-width: 600px) {
+  .bottomNav {
+    margin-right: 60%;
+  }
+}
+
+.bottomNavHeader {
+  color: #ee2d1c;
+  font-weight: bold;
+}
+
+.bottomNavLinks {
+  list-style-type: none;
+  padding: 5px;
+  color: #88939e;
+  text-decoration: none;
+}

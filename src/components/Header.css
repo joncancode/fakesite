@@ -1,0 +1,86 @@
+header {
+  background-image: url(../assets/hero-image.png);
+  height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  margin-top: -20px;
+}
+
+
+.container {
+  width: 80%;
+  margin: auto;
+}
+
+@media (max-width: 600px) {
+    .container {
+        width: 100%;
+    }
+}
+
+.logo {
+  float: left;
+  padding: 20px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.topNav {
+  /* float: right; */
+  color: white;
+  padding: 25px;
+  display: inline;
+  float: right;
+}
+
+@media (max-width: 600px) {
+
+    .topNav {
+        color: white;
+        padding: 10px;
+        
+      }
+}
+
+.navLinks {
+    margin-top: 15px;
+}
+
+.userIcon {
+    width: 50px;
+}
+
+.headline {
+    text-align: center;
+}
+
+.pageTitle {
+    font-size: 48px;
+    line-height: 48px;
+    padding-top: 30%;
+}
+
+.pageSubTitle {
+    padding: 30px;
+    width: 40%;
+    margin: auto;
+}
+
+button {
+    background-color: #EE2D1C;
+    color: white;
+    font-size: 22px;
+    border-radius: 30px;
+    padding: 5px 30px;
+    min-height: 55px;
+    border: none;
+    cursor: pointer;
+}
+
+button:focus {
+    outline:0;
+}

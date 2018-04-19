@@ -1,0 +1,14 @@
+.App {
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+  color: #88939E;  
+}
+
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro');
+
+body {
+  font-family: 'Source Sans Pro', normal;
+}

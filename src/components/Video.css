@@ -1,0 +1,71 @@
+.videoTop {
+  display: inline-block;
+  color: #88939e;
+  margin-top: 40px;
+}
+
+@media (min-width: 600px) {
+  .videoGroup {
+    clear: both;
+  }
+
+
+  .videoLeft {
+    float: left;
+    width: 49%;
+    clear: left;
+  }
+
+  .videoRight {
+    float: right;
+    width: 49%;
+    clear: right;
+  }
+}
+
+@media (max-width: 600px) {
+  .videoGroup {
+    margin: auto;
+  }
+
+  .videoLeft {
+    text-align: center;
+    float: none;
+    margin: auto;
+    width: 90%;
+  }
+
+  .videoRight {
+    margin-top: 30px;
+    padding: 0 0 60px 0;
+  }
+
+  .stockimage {
+    width: 300px;
+  }
+}
+
+@media (min-width: 600px) {
+  .stockimage {
+    margin-top: 70px;
+  }
+}
+
+.videoHeading {
+  font-size: 36px;
+  color: #4c4c51;
+  clear: both;
+  padding: 10px;
+  margin-top: 40px;
+}
+
+.videoText {
+  width: 70%;
+  margin: auto;
+}
+
+@media (max-width: 600px) {
+  .videoText {
+    width: 100%;
+  }
+}
